@@ -106,3 +106,20 @@ ul li{ /*perquè les “bullets” quedin alineades amb el text*/
     }
 }
 
+#peu {
+    height: 100px;
+    text-align: right;
+}
+
+#campus-e {
+    animation-name: anim-campus-e;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+
+@keyframes anim-campus-e {
+    0% {width: 100px; }
+    100% {width: 100px; transform: rotate(360deg);}
+}
+

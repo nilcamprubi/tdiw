@@ -6,11 +6,8 @@ function confirmaRegistre(){
 }
 
 async function carregaMencions(){
-    //completa
-    alert('hi');
-    let response = await fetch('http://localhost/mencions.php?grau='
-        + document.getElementById("graus").value
-    );
-    let opcions = await response.text();
-    document.getElementById("mencions").innerHTML = opcions;
+    var tagGraus = document.getElementById("graus");
+    var resposta = await fetch("mencions.php?grau="+tagGraus.value);
+    var respostaTxt = await resposta.text();
+    document.getElementById("mencions").innerHTML = respostaTxt;
 }

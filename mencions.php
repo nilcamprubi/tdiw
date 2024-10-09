@@ -1,6 +1,6 @@
 <?php
   $graus = array(
-    array("id"=>1,"nom"=>"Eng. Informàtica"), 
+    array("id"=>1,"nom"=>"Enginyeria Informàtica"), 
     array("id"=>2,"nom"=>"Intel.ligència Artificial")
   );
   $mencions = array( 
